@@ -8,6 +8,13 @@ a {
     text-decoration: none;
 }
 
+.title {
+    font-weight: 800;
+    padding-bottom: 40px;
+    font-size: 48px;
+    line-height: 58px;
+}
+
 /* Mulish Font  */
 @import url('https://fonts.googleapis.com/css2?family=Mulish:wght@300;400;500;600;700;800;900&display=swap');
 
@@ -159,14 +166,17 @@ body {
     margin-bottom: 17px;
     font-size: 35px;
 }
+
 .turn-on-location-content p {
     font-size: 18px;
     font-weight: 500;
     padding-bottom: 35px;
 }
+
 ._2-buttons-header a {
     margin-right: 20px;
 }
+
 .button-secondary {
     padding: 18px 24px;
     border-radius: 4px;
@@ -264,6 +274,7 @@ body {
     transition: background 300ms ease 0s, border 300ms ease 0s, color 300ms ease 0s;
     font-weight: bold;
     margin-top: 50px;
+    margin-bottom: 50px;
 }
 
 .learnmore-btn:hover {
@@ -280,6 +291,88 @@ body {
 
 .software-preview-area {
     padding-bottom: 50px;
+}
+
+/* featured-area */
+.featured-area {
+    padding-bottom: 50px;
+}
+
+.featured-box {
+    transition: .3s;
+    padding: 15px;
+    border-radius: 8px;
+}
+
+.featured-box:hover {
+    box-shadow: 0px 0px 23.4px 2.6px rgba(0, 0, 0, 0.1);
+    transition: .3s;
+}
+
+.featured-box img {
+    border-radius: 8px;
+    filter: grayscale(100%);
+    transition: all 0.2s ease-out;
+}
+
+.featured-box img:hover {
+    filter: grayscale(0%);
+}
+
+.featured-box h4 {
+    color: #212529;
+    font-size: 19px;
+    letter-spacing: 0px;
+    margin: 0px;
+    min-width: 0px;
+    font-size: 17px;
+    font-weight: 700;
+    line-height: 24px;
+    color: rgb(16, 25, 40);
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.featured-location {
+    letter-spacing: 0px;
+    margin: 0px;
+    min-width: 0px;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 21px;
+    color: rgb(135, 140, 147);
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.review {
+    display: flex;
+    color: rgb(16, 25, 40);
+    font-weight: 900;
+}
+
+.review i {
+    color: #FFC830;
+    font-weight: bold;
+    margin-right: 7px;
+}
+
+.review p {
+    color: rgb(135, 140, 147);
+    margin-left: 10px;
+    font-weight: 400;
+}
+
+.featured-catagory {
+    background: #CDE4FF;
+    width: 30%;
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 4px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-top: -6px;
 }
 
 /* *-*-*-*-*-* footer css *-*-*-*-*-* */

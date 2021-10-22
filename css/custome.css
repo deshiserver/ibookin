@@ -143,4 +143,60 @@ body {
     align-items: center;
 }
 
+/* software-preview-area  */
+.software-preview-content {
+    padding-left: 50px;
+}
+
+.software-preview-content h1 {
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 58px;
+    color: #fff;
+    padding-top: 100px;
+}
+.software-preview-content p {
+    letter-spacing: 0px;
+    margin: 30px 0;
+    margin-bottom: 0px;
+    /* min-width: 0px; */
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #fff;
+}
+
+.learnmore-btn {
+    display: flex;
+    -moz-box-flex: 1;
+    flex-grow: 1;
+    -moz-box-align: center;
+    align-items: center;
+    -moz-box-pack: center;
+    justify-content: center;
+    text-align: center;
+    padding: 11px 15px;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    min-height: 48px;
+    background: rgb(3, 122, 255) none repeat scroll 0% 0%;
+    position: relative;
+    color: #fff;
+    transition: background 300ms ease 0s, border 300ms ease 0s, color 300ms ease 0s;
+    font-weight: bold;
+    margin-top: 50px;
+}
+
+.learnmore-btn:hover {
+    background: rgb(78, 161, 255) none repeat scroll 0% 0%;
+    border-color: transparent;
+}
+
+
+.software-preview-bg {
+    background: #101928;
+    padding-right: 0;
+    border-radius: 16px;
+}
+
 /* *-*-*-*-*-* footer css *-*-*-*-*-* */

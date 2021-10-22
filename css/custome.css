@@ -143,6 +143,81 @@ body {
     align-items: center;
 }
 
+/* Turn on location service  */
+.turn-on-location {
+    box-shadow: 1px 8px 24px 0 rgba(0, 0, 0, .11);
+    border-radius: 8px;
+    padding: 80px;
+}
+
+.turn-on-location-area {
+    padding-bottom: 50px;
+}
+
+.turn-on-location-content h3 {
+    font-weight: bold;
+    margin-bottom: 17px;
+    font-size: 35px;
+}
+.turn-on-location-content p {
+    font-size: 18px;
+    font-weight: 500;
+    padding-bottom: 35px;
+}
+.button-secondary {
+    padding: 18px 24px;
+    border-radius: 4px;
+    background-color: #fff;
+    box-shadow: 0 2px 6px 0 rgba(5, 21, 46, 0.1), 0 2px 6px 0 rgba(21, 60, 245, 0.02), 0 -2px 4px 0 rgba(21, 60, 245, 0.04);
+    -webkit-transition: color 300ms ease, background-color 300ms ease, -webkit-transform 300ms ease;
+    transition: color 300ms ease, background-color 300ms ease, -webkit-transform 300ms ease;
+    transition: transform 300ms ease, color 300ms ease, background-color 300ms ease;
+    transition: transform 300ms ease, color 300ms ease, background-color 300ms ease, -webkit-transform 300ms ease;
+    color: #1373b8;
+    font-size: 16px;
+    line-height: 18px;
+    font-weight: 400;
+    text-align: center;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+}
+
+.button-secondary:hover {
+    background-color: #05152f;
+    -webkit-transform: translate(0px, -2px);
+    -ms-transform: translate(0px, -2px);
+    transform: translate(0px, -2px);
+    color: #fff;
+}
+
+
+.button-primary {
+    padding: 18px 24px;
+    border-radius: 4px;
+    background-color: #05152f;
+    box-shadow: 0 2px 6px 0 rgb(0 0 0 / 12%), 0 14px 14px 0 rgb(0 0 0 / 20%);
+    -webkit-transition: box-shadow 300ms ease, background-color 300ms ease, -webkit-transform 300ms ease;
+    transition: box-shadow 300ms ease, background-color 300ms ease, -webkit-transform 300ms ease;
+    transition: transform 300ms ease, box-shadow 300ms ease, background-color 300ms ease;
+    transition: transform 300ms ease, box-shadow 300ms ease, background-color 300ms ease, -webkit-transform 300ms ease;
+    color: #fff;
+    font-size: 16px;
+    line-height: 18px;
+    font-weight: 700;
+    text-align: center;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+}
+
+.button-primary:hover {
+    background-color: #05152f;
+    box-shadow: 0 3px 9px 0 rgba(5, 21, 46, 0.16), 0 14px 19px 0 rgba(21, 60, 245, 0.23);
+    -webkit-transform: translate(0px, -2px);
+    -ms-transform: translate(0px, -2px);
+    transform: translate(0px, -2px);
+    color: #fff;
+}
+
 /* software-preview-area  */
 .software-preview-content {
     padding-left: 50px;

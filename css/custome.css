@@ -45,6 +45,7 @@ body {
     /* background-size: cover;
     background-position: right; */
 }
+
 .animated1.flipInX1.slower1 {
     margin-top: 0px;
     margin-bottom: 24px;
@@ -53,6 +54,7 @@ body {
     line-height: 70px;
     font-weight: 700;
 }
+
 .mg-top-48px {
     margin-top: 48px;
 }
@@ -81,8 +83,8 @@ body {
     line-height: 38px;
 }
 
-.bdkaj-input,
-.bdkaj-select {
+.ibookin-input,
+.ibookin-select {
     display: block;
     width: 100%;
     height: 38px;
@@ -131,11 +133,11 @@ body {
     margin-bottom: 18px;
 }
 
-input.bdkaj-button {
+input.ibookin-button {
     -webkit-appearance: button;
 }
 
-.bdkaj-button {
+.ibookin-button {
     display: inline-block;
     padding: 9px 15px;
     background-color: #3898EC;
@@ -151,8 +153,8 @@ input.bdkaj-button {
     text-align: center !important;
 }
 
-.bdkaj-input,
-.bdkaj-select {
+.ibookin-input,
+.ibookin-select {
     display: block;
     width: 100%;
     height: 38px;
@@ -571,4 +573,20 @@ input.bdkaj-button {
     /* border-top: 1px solid rgb(235, 230, 230); */
     color: #535964;
     padding-top: 15px;
+}
+
+
+/* Sticky nav  */
+#sticker {
+    z-index: 999 !important;
+}
+
+.nh {
+    visibility: hidden;
+    transition: .2s;
+}
+
+.is-sticky .nh {
+    visibility: visible;
+    transition: .2s;
 }

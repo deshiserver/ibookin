@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+    <title>404 Page Not Found</title>
+
+    <!-- Google font -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
+    <!-- font awsome cdn  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
+    <!-- Custom stlylesheet -->
+    <style>
+        * {
+            -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+        }
+
+        .ibookin-error i {
+            color: #ffc830;
+        }
+
+        body {
+            padding: 0;
+            margin: 0;
+        }
+
+        #ibookin-error {
+            position: relative;
+            height: 100vh;
+            background: #f6f6f6;
+        }
+
+        #ibookin-error .ibookin-error {
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            -webkit-transform: translate(-50%, -50%);
+            -ms-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+            border-radius: 20px;
+        }
+
+        .ibookin-error {
+            max-width: 767px;
+            width: 100%;
+            line-height: 1.4;
+            padding: 110px 40px;
+            text-align: center;
+            background: #fff;
+            -webkit-box-shadow: 0 15px 15px -10px rgba(0, 0, 0, 0.1);
+            box-shadow: 0 15px 15px -10px rgba(0, 0, 0, 0.1);
+        }
+
+        .ibookin-error .ibookin-error-404 {
+            position: relative;
+            height: 180px;
+        }
+
+        .ibookin-error .ibookin-error-404 h1 {
+            font-family: 'Roboto', sans-serif;
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            -webkit-transform: translate(-50%, -50%);
+            -ms-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+            font-size: 165px;
+            font-weight: 700;
+            margin: 0px;
+            color: #262626;
+            text-transform: uppercase;
+        }
+
+        .ibookin-error .ibookin-error-404 h1>span {
+            color: #FFC830;
+        }
+
+        .ibookin-error h2 {
+            font-family: 'Roboto', sans-serif;
+            font-size: 22px;
+            font-weight: 400;
+            text-transform: uppercase;
+            color: #151515;
+            margin-top: 0px;
+            margin-bottom: 25px;
+        }
+
+
+        @media only screen and (max-width: 767px) {
+            .ibookin-error h2 {
+                font-size: 18px;
+            }
+        }
+
+        @media only screen and (max-width: 480px) {
+            .ibookin-error .ibookin-error-404 h1 {
+                font-size: 141px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <div id="ibookin-error">
+        <div class="ibookin-error">
+            <div class="ibookin-error-404">
+                <h1>4<span>0</span>4</h1>
+            </div>
+            <h2> <i class="fas fa-exclamation-triangle"></i> the page you requested could not found</h2>
+        </div>
+    </div>
+
+</body>
+
+</html>

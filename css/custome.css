@@ -1063,3 +1063,7 @@ input.ibookin-button {
         padding-bottom: 20px;
     }
 }
+.form_container a {
+    color: #05152f;
+    text-align: center;
+}

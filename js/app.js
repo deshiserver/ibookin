@@ -1,7 +1,7 @@
 // DropDown Trogol
 
-$(".bdkaj-dropdown-toggle").on("click", function () {
-    if ($(this).closest(".bdkaj-dropdown").find(".bdkaj-dropdown-list").hasClass("bdkaj--open")) {
+$(".ibookin-dropdown-toggle").on("click", function () {
+    if ($(this).closest(".ibookin-dropdown").find(".ibookin-dropdown-list").hasClass("ibookin--open")) {
         $(this).find('.arrow-icon').animate({
             'rotate': '0'
         }, {
@@ -20,7 +20,7 @@ $(".bdkaj-dropdown-toggle").on("click", function () {
 
             }
         }, 'linear');
-        $(this).closest(".bdkaj-dropdown").find(".bdkaj-dropdown-list").removeClass('bdkaj--open');
+        $(this).closest(".ibookin-dropdown").find(".ibookin-dropdown-list").removeClass('ibookin--open');
     } else {
         $('.arrow-icon').animate({
             'rotate': '0'
@@ -40,7 +40,7 @@ $(".bdkaj-dropdown-toggle").on("click", function () {
 
             }
         }, 'linear');
-        $(".bdkaj-dropdown-list").removeClass('bdkaj--open');
+        $(".ibookin-dropdown-list").removeClass('ibookin--open');
 
         $(this).find('.arrow-icon').animate({
             'rotate': '180'
@@ -60,7 +60,7 @@ $(".bdkaj-dropdown-toggle").on("click", function () {
 
             }
         }, 'linear');
-        $(this).closest(".bdkaj-dropdown").find(".bdkaj-dropdown-list").addClass('bdkaj--open');
+        $(this).closest(".ibookin-dropdown").find(".ibookin-dropdown-list").addClass('ibookin--open');
     }
 });
 

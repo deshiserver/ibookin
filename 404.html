@@ -102,6 +102,30 @@
                 font-size: 141px;
             }
         }
+
+        .button-primary {
+            padding: 18px 24px;
+            border-radius: 4px;
+            background-color: #05152f;
+            box-shadow: 0 2px 6px 0 rgb(0 0 0 / 12%), 0 14px 14px 0 rgb(0 0 0 / 20%);
+            -webkit-transition: box-shadow 300ms ease, background-color 300ms ease, -webkit-transform 300ms ease;
+            transition: box-shadow 300ms ease, background-color 300ms ease, -webkit-transform 300ms ease;
+            transition: transform 300ms ease, box-shadow 300ms ease, background-color 300ms ease;
+            transition: transform 300ms ease, box-shadow 300ms ease, background-color 300ms ease, -webkit-transform 300ms ease;
+            color: #fff;
+            font-size: 16px;
+            line-height: 18px;
+            font-weight: 700;
+            text-align: center;
+            letter-spacing: 0.08em;
+            text-transform: uppercase;
+            text-decoration: none !important;
+
+        }
+
+        .buttons-header {
+            margin-top: 50px;
+        }
     </style>
 </head>
 
@@ -113,6 +137,10 @@
                 <h1>4<span>0</span>4</h1>
             </div>
             <h2> <i class="fas fa-exclamation-triangle"></i> the page you requested could not found</h2>
+            <div class="buttons-header">
+
+                <a href="index.html" class="button-primary button-header-primary ibookin-button">Back to Home</a>
+            </div>
         </div>
     </div>
 

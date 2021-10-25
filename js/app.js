@@ -87,8 +87,12 @@ $('.owl-carousel').owlCarousel({
     }
 })
 
-
-
+// sticker
+$(document).ready(function () {
+    $("#sticker").sticky({
+        topSpacing: 0
+    });
+});
 
 
 

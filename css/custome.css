@@ -341,7 +341,7 @@ input.ibookin-button {
 }
 
 .turn-on-location-area {
-    padding-bottom: 50px;
+    padding: 50px;
 }
 
 .turn-on-location-content h3 {
@@ -473,7 +473,8 @@ input.ibookin-button {
 }
 
 .software-preview-area {
-    padding-bottom: 50px;
+    padding: 50px;
+    padding-bottom: 100px;
 }
 
 /* featured-area */
